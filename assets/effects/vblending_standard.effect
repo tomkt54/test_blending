@@ -296,7 +296,7 @@ CCProgram standard-fs %{
             float y = PBR_UV.y;
             if (x > l && x < l + w && y > t && y < t + h)
             {
-                s.albedo.rgb = c.rgb * c.a  + (1.0 - c.a) * s.albedo.rgb;
+                s.albedo.rgb = c.rgb * c.a + (1.0 - c.a) * s.albedo.rgb;
             }
         }
       }
