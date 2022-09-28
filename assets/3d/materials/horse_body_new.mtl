@@ -1,0 +1,81 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "ae9b6913-6f85-412c-a131-cc658a294902",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": "0",
+  "_defines": [
+    {
+      "USE_ALBEDO_MAP": true,
+      "USE_PBR_MAP": true
+    },
+    {},
+    {}
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {},
+    {}
+  ],
+  "_props": [
+    {
+      "mainTexture": {
+        "__uuid__": "77f7d9a0-b3b7-4f84-a80d-d7cc2b53592d@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "pbrMap": {
+        "__uuid__": "ba04c0eb-0817-4295-a061-441f0ace26e5@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "vsize": {
+        "__type__": "cc.Vec4",
+        "x": 1024,
+        "y": 1024,
+        "z": 0,
+        "w": 0
+      },
+      "vspot_1": {
+        "__type__": "cc.Vec4",
+        "x": 181,
+        "y": 628,
+        "z": 125,
+        "w": 125
+      },
+      "vspot_2": {
+        "__type__": "cc.Vec4",
+        "x": 337,
+        "y": 620,
+        "z": 80,
+        "w": 75
+      },
+      "vspot_3": {
+        "__type__": "cc.Vec4",
+        "x": 504,
+        "y": 578,
+        "z": 80,
+        "w": 111
+      },
+      "vspot_4": {
+        "__type__": "cc.Vec4",
+        "x": 812,
+        "y": 600,
+        "z": 92,
+        "w": 92
+      }
+    },
+    {},
+    {}
+  ]
+}
